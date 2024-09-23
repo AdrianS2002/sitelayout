@@ -54,3 +54,43 @@ a{
     font-size: 1.5rem;
 }
 
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .leftSidebar, .rightSidebar{
+        min-height: 350px;
+        flex: 1.5;
+    }
+    .mainContent{
+        min-height: 450px;
+        flex: 2.5;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    a{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 484px){
+    .container{
+        flex-direction: column;
+    }
+    .leftSidebar, .rightSidebar{
+        min-height: 350px;
+        flex: 0.75;
+    }
+    .mainContent{
+        min-height: 450px;
+        flex: 1;
+    }
+    h2{
+        font-size: 0.8rem;
+    }
+    a{
+        font-size: 0.55rem;
+    }
+}
