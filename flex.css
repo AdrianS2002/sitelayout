@@ -75,16 +75,16 @@ a{
     }
 }
 
-@media (max-width: 484px){
+@media (max-width: 480px){
     .container{
         flex-direction: column;
     }
     .leftSidebar, .rightSidebar{
-        min-height: 350px;
+        min-height: 250px;
         flex: 0.75;
     }
     .mainContent{
-        min-height: 450px;
+        min-height: 350px;
         flex: 1;
     }
     h2{
